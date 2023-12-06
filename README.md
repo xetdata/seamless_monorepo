@@ -1,5 +1,7 @@
 ## Seamless Communication Monorepo
 
+![hero](https://github.com/xetdata/seamless_monorepo/assets/801507/c9c626ac-d023-4076-b810-1be76b4c2c32)
+
 [XetHub hosted](https://about.xethub.com/product/integrations/github) fork of Meta's Samless Communication models in a monorepo design:
 
 - `models\` folder contains all of the model files themselves
