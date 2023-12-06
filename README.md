@@ -1,7 +1,5 @@
 ## Seamless Communication Monorepo
 
-![](hero.jpg)
-
 [XetHub hosted](https://about.xethub.com/product/integrations/github) fork of Meta's Samless Communication models in a monorepo design:
 
 - `models\` folder contains all of the model files themselves
@@ -43,7 +41,6 @@ View a full list of currently materialized files using:
 
 ```
 git xet lazy show
-
 ```
 
 ### 🗻Mount the entire repo locally
@@ -54,11 +51,11 @@ You can also mount the entire model repo in just a few seconds. The files you ne
 git xet mount git@github.com:xetdata/seamless_monorepo.git
 ```
 
-### Join our community
+### 🌃 Join our community
 
 Join our [Slack community here](https://communityinviter.com/apps/xetdata/xet).
 
-### Legal Disclosures
+### 📝 Legal Disclosures
 
 **Seamless Expressive models**
 
