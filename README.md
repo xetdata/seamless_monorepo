@@ -1,11 +1,15 @@
 ## Seamless Communication Monorepo
 
+![hero](https://github.com/xetdata/seamless_monorepo/assets/801507/b970d6e5-a902-444f-87ff-4ae31b5ae672)
+
 [XetHub hosted](https://about.xethub.com/product/integrations/github) fork of Meta's Samless Communication models in a monorepo design:
 
 - `models\` folder contains all of the model files themselves
 - `code\` folder is a Git submodule to Meta's repo containing code and documentation
 
-Large files like the model files are hosted by XetHub while source code is still hosted by GitHub using our [GitHub app](https://github.com/apps/xetdata).
+Large files like the model files are hosted by XetHub while source code is still hosted by GitHub using our [GitHub app](https://github.com/apps/xetdata). This ML monorepo design bakes in reproducibility with no workflow changes and simplifies versioning since source code and large files can live in the same logical folder.
+
+<img width="882" alt="ML_monorepo" src="https://github.com/xetdata/seamless_monorepo/assets/801507/f8883a01-7db7-4b34-bc80-0089424bd4b6">
 
 ### 🔂 Clone the entire Repo
 
@@ -25,6 +29,12 @@ git-xet 0.12.5 filter started
 Updating files: 100% (39/39), done.
 Xet: Retrieving data blocks: 15.34 GiB / 110 MiB/s
 Filtering content: 45% (11/24), 4.72 GiB / 70 MiB/s
+```
+
+4. The `code/` folder is a Git sub-module that links to Meta's original repo. Download it using from the root directory of this monorepo:
+
+```
+git submodule update --init --recursive
 ```
 
 _Bonus tip_: save your SSH passphrase [in your keychain](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases#saving-your-passphrase-in-the-keychain) so you don't have to enter it 4 times every time you git clone or git push.
