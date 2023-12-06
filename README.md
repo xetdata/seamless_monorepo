@@ -1,6 +1,6 @@
 ## Seamless Communication Monorepo
 
-![](23-11_SEAMLESS_BlogHero_11.17.jpg)
+![](hero.jpg)
 
 [XetHub hosted](https://about.xethub.com/product/integrations/github) fork of Meta's Samless Communication models in a monorepo design:
 
