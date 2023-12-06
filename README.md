@@ -1,8 +1,6 @@
 ## Seamless Communication Monorepo
 
-![hero](https://github.com/xetdata/seamless_monorepo/assets/801507/c9c626ac-d023-4076-b810-1be76b4c2c32)
-
-[XetHub hosted](https://about.xethub.com/product/integrations/github) fork of Meta's Seamless Communication models in a monorepo design:
+[XetHub hosted](https://about.xethub.com/product/integrations/github) fork of Meta's Samless Communication models in a monorepo design:
 
 - `models\` folder contains all of the model files themselves
 - `code\` folder is a Git submodule to Meta's repo containing code and documentation
@@ -19,9 +17,17 @@ This repo contains 41 GB of model files so double check your available storage o
 ```
 git clone git@github.com:xetdata/seamless_monorepo.git
 ```
-3. The download may take a while and you will 
 
-Bonus tip: save your SSH passphrase [in your keychain](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases#saving-your-passphrase-in-the-keychain) so you don't have to enter it 4 times every time you git clone or git push.
+3. The download may take a while and you will see output from the git-xet client resembeling the following:
+
+```
+git-xet 0.12.5 filter started
+Updating files: 100% (39/39), done.
+Xet: Retrieving data blocks: 15.34 GiB / 110 MiB/s
+Filtering content: 45% (11/24), 4.72 GiB / 70 MiB/s
+```
+
+_Bonus tip_: save your SSH passphrase [in your keychain](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases#saving-your-passphrase-in-the-keychain) so you don't have to enter it 4 times every time you git clone or git push.
 
 ### 🛋️ Quickly lazy clone just the code
 
@@ -61,7 +67,7 @@ Join our [Slack community here](https://communityinviter.com/apps/xetdata/xet).
 
 **Seamless Expressive models**
 
-Meta requires that you register your email with them to use the Seamless Expressive models. You can fill out [the form here](https://ai.meta.com/resources/models-and-libraries/seamless-downloads/).
+Meta requires that you register your email with them to use the Samless Expressive models. You can fill out [the form here](https://ai.meta.com/resources/models-and-libraries/seamless-downloads/).
 
 **Licenses**
 
