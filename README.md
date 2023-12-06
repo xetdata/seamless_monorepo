@@ -2,7 +2,7 @@
 
 ![hero](https://github.com/xetdata/seamless_monorepo/assets/801507/c9c626ac-d023-4076-b810-1be76b4c2c32)
 
-[XetHub hosted](https://about.xethub.com/product/integrations/github) fork of Meta's Samless Communication models in a monorepo design:
+[XetHub hosted](https://about.xethub.com/product/integrations/github) fork of Meta's Seamless Communication models in a monorepo design:
 
 - `models\` folder contains all of the model files themselves
 - `code\` folder is a Git submodule to Meta's repo containing code and documentation
@@ -61,7 +61,7 @@ Join our [Slack community here](https://communityinviter.com/apps/xetdata/xet).
 
 **Seamless Expressive models**
 
-Meta requires that you register your email with them to use the Samless Expressive models. You can fill out [the form here](https://ai.meta.com/resources/models-and-libraries/seamless-downloads/).
+Meta requires that you register your email with them to use the Seamless Expressive models. You can fill out [the form here](https://ai.meta.com/resources/models-and-libraries/seamless-downloads/).
 
 **Licenses**
 
